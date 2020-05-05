@@ -1,8 +1,9 @@
-namespace B
-{
-  class cons
+#ifndef Message_H
+#define Message_H
+
+  class message
   {
   Public:
-    void isthisworking();
+    void printmessage();
     };
-}
+#endif 
