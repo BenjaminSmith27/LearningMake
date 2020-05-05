@@ -1,5 +1,5 @@
-Makestuff: useh.cpp other.cpp
-  g++ -o Makestuff useh.cpp other.cpp 
+Makestuff: useh.cpp otherone.cpp
+  g++ -o Makestuff useh.cpp otherone.cpp 
 
 clean: 
     rm -f *.o Makestuff Makefile
