@@ -6,4 +6,4 @@
   Public:
     void printmessage();
     };
-#endif 
+#endif // Message_H
