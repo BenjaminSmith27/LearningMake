@@ -1,6 +1,11 @@
-Makestuff: main.cpp otherone.cpp
-  g++ -o Makestuff main.cpp otherone.cpp 
+Makestuff: main.o message.o
+  g++ main.o message.o -o Makestuff
 
+main.o: main.cpp
+  g++ -c main.cpp
+
+message.o: message.cpp message.h
+  g++ -c message.cpp
+  
 clean: 
-    rm -f *.o Makestuff Makefile
-  	mv Makefile.orig Makefile
+    rm -f *.o Makestuff
