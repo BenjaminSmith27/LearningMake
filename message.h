@@ -1,9 +1,10 @@
-#ifndef Message_H
-#define Message_H
+#ifndef MESSAGE_H
+#define MESSAGE_H
 
-  class message
-  {
-  Public:
-    void printmessage();
-    };
-#endif // Message_H
+class message{
+    
+public:
+    void printMessage();
+};
+
+#endif // MESSAGE_H
