@@ -2,7 +2,7 @@
 #include "message.h"
 using namespace std;
 
-void message::printmessage(){
+void message::printMessage(){
   cout << "MakefileExample\n";
 }
 
